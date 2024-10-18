@@ -1,0 +1,43 @@
+.task-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.task-form form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.task-form form label {
+  padding: 6px 0;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.task-form form :is(input, select) {
+  padding: 8px 4px;
+  border: solid 1px rgb(201, 201, 201);
+  border-radius: 6px;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.task-form form input {
+  padding: 8px;
+}
+
+.task-form button {
+  margin-top: 15px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(33, 92, 182);
+  color: white;
+  font-family: inherit;
+  padding: 6px 0;
+}
+.task-form button:hover {
+  cursor: pointer;
+  background-color: rgb(62, 122, 213);
+}

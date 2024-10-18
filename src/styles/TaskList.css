@@ -1,0 +1,50 @@
+.tasklist-container {
+  margin: 20px 5%;
+}
+
+.tasklist-container ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 20px 15px;
+  border-bottom: solid 1px rgb(226, 226, 226);
+}
+
+.tasklist-container ul:nth-child(2) li {
+  font-weight: bold;
+}
+
+.tasklist-container ul:not(:nth-child(2)) li:is(:nth-child(2), :nth-child(3)) {
+  background-color: rgb(95, 150, 245);
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 2px 12px 5px 12px;
+  color: white;
+}
+
+.tasklist-container ul:not(:nth-child(2)) li:last-child {
+  display: flex;
+}
+
+.tasklist-container button {
+  background-color: inherit;
+  border: solid 1px rgb(196, 196, 196);
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-end;
+  padding: 5px 8px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-weight: bold;
+  height: fit-content;
+}
+.tasklist-container button:hover {
+  background-color: rgb(249, 249, 249);
+}
+
+.tasklist-container button img {
+  width: 20px;
+  margin-right: 5px;
+}

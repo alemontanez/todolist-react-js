@@ -1,0 +1,23 @@
+.pendientes {
+  background-color: rgb(196, 157, 222);
+}
+
+.en-progreso {
+  background-color: rgb(55, 95, 255);
+}
+
+.completadas {
+  background-color: rgb(53, 201, 53);
+}
+
+.baja {
+  background-color: rgb(121, 205, 224);
+}
+
+.media {
+  background-color: rgb(255, 153, 0);
+}
+
+.alta {
+  background-color: rgb(203, 56, 56);
+}

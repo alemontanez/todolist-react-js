@@ -16,7 +16,6 @@
 }
 
 .tasklist-container ul:not(:nth-child(2)) li:is(:nth-child(2), :nth-child(3)) {
-  background-color: rgb(95, 150, 245);
   width: fit-content;
   height: fit-content;
   border-radius: 15px;
@@ -28,23 +27,43 @@
   display: flex;
 }
 
+.tasklist-container a {
+  text-decoration: none;
+}
+
 .tasklist-container button {
   background-color: inherit;
   border: solid 1px rgb(196, 196, 196);
   border-radius: 5px;
   display: flex;
   align-items: flex-end;
-  padding: 5px 8px;
-  margin: 0 5px;
+  padding: 8px;
   cursor: pointer;
   font-weight: bold;
   height: fit-content;
+  font-size: 18px;
 }
 .tasklist-container button:hover {
   background-color: rgb(249, 249, 249);
+  border: solid 1px rgb(50, 88, 157);
+}
+
+.tasklist-container ul li button {
+  margin: 0 5px;
 }
 
 .tasklist-container button img {
   width: 20px;
   margin-right: 5px;
+}
+
+.button-clear {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 15px;
+}
+.button-clear button {
+  width: fit-content;
+  grid-column: 4;
+  margin-left: 5px;
 }

@@ -8,7 +8,7 @@ export default function Navbar() {
         <ul>
           <Link to={'/'}>
             <li>
-              <span><b>JourneyForge</b></span>
+              <span><img src="https://cdn-icons-png.flaticon.com/128/6203/6203186.png" /><b>JourneyForge</b></span>
             </li>
           </Link>
           <Link to={'/'}>

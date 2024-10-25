@@ -26,6 +26,11 @@
   text-decoration: none;
 }
 
+.navbar ul a img {
+  height: 18px;
+  padding-right: 5px;
+}
+
 .task-button {
   border: solid 2px rgb(236, 236, 236);
   border-radius: 5px;
